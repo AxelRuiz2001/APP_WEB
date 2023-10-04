@@ -1,0 +1,50 @@
+git status   (no hay cambios en el repositorio)
+git add .    (actualiza)
+git commit -m "Primer Viaje"   (generar trackeo, para dar orden)
+git log      (brinda info de lo realizado)
+git push origin main   (sube info al servidor)
+
+mysql -h localhost -u root -p   (entra al sql linea omandos)
+show databases;   (muestra las base de datos creada /info)
+show tables;
+select*from articulo;
+
+
+===============================================
+!   (genera la info basica del html o pagina web)
+div.Tarea#idEjemplo  /  si añadimos  >ul (lista) >li (elementos) *5(brinda cuantos elementos)     /genera  
+    <div class="Tarea" id="idEjemplo">
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+
+div.Tarea#idEjemplo>ul>li*5>a  (genera enlaces href ="")
+
+=======================================================
+
+div.Tarea#idEjemplo>ul>li*5>a[href="/"]
+
+<div class="Tarea" id="idEjemplo">
+        <ul>
+            <li><a href="/"></a></li>
+            <li><a href="/"></a></li>
+            <li><a href="/"></a></li>
+            <li><a href="/"></a></li>
+            <li><a href="/"></a></li>
+        </ul>
+    </div>
+
+================================================
+div.Tarea#idEjemplo>ul>li*5>a[href="/"]{texto $}   (brinda secuancia el simbolo $)
+
+
+link:css   (nombre del archivo, para que se relacionen)
+script src   (Enlaza archivos)
+
+
+================================================
+alt + Z   (reduce la informacion)
+

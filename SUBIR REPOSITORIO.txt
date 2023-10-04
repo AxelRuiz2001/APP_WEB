@@ -1,0 +1,11 @@
+SUBIR REPOSITORIO
+
+git add .
+git commit -m "..."  (va el nombre de archivo que quiera)
+git push origin main
+
+
+====================================================
+CLONAR REPOSITORIO 
+
+git clone https://github.com/AxelRuiz2001/APP_WEB.git      (direccion de repositorio)
