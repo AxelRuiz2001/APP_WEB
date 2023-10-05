@@ -1,0 +1,58 @@
+tinyblob   (encryptado)
+
+Seguridad:   tinyblob   /  AES  "encryptado - no visible"
+
+==========================================================
+
+CREATE TABLE `usuario` (
+  `idusuario` int NOT NULL AUTO_INCREMENT,
+  `usuario` varchar(20) NOT NULL,
+  `password` tinyblob NOT NULL,
+  PRIMARY KEY (`idusuario`)
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=latin1;
+
+
+
+ INSERT INTO usuario (idusuario,usuario,password) VALUES (1, 'jperezgil', AES_ENCRYPT('admin','IDAT'));
+ ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'root';
+flush privileges;
+
+==========================================================
+
+Se testeo y la contraseña debe estar encryptada, se usa by tinyblob usando AES, los desarrollos no deben ser creados en área local, debe ser en un servidor, 
+
+
+Proyecto debe tener motor  (Node)
+
+Html y Css
+
+npm init -y   (crea un json / inicializa un proyecto)
+
+package.json   (muestra paquetes instalados)
+
+ps          (power sheel)
+git puro    ()
+cmnder      ()
+
+==================================================================
+npm install express  (dentro de la terminal de VSC)
+npm install mysql2   (dentro de la terminal de VSC) 
+scafollding          (usuario, contraseña y base de datos / conecta)
+            
+WEB = ropaje , Se necesita de un intermediario = Back End para que el Front End se adapte a la base de datos
+
+Se testea la base de datos primero, ya que es el tronco del sistema o programa, por eso se debe tener encyptacion
+
+express   (hace comunicacion)
+
+package.json  (express)
+
+debe tener llaves de seguridad o ssl, sino, el programa es vulnerable a hackeo
+
+===================================================================
+
+java script, es diseñado para usarse en el navegador, debe tener lenguaje puro (se crea node)
+
+
+
+
